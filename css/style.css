@@ -1,0 +1,701 @@
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+    /* font-size: 16px; */
+    font-size: 11px;
+    font-weight: normal;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.container {
+    /* max-width: 1140px; по figma 1140px а по pixlel perfect 784px и +слева прокрутка */
+    max-width: 784px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* navbar */
+.header__logo {
+    width: 67px;
+    margin-left: -6px;
+    margin-top: 6px;
+}
+
+.header__address {
+    line-height: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    letter-spacing: -0.4px;
+    color: #364844;
+}
+
+.header__address span {
+    color: #868686;
+}
+
+.header__icon {
+    position: relative;
+    height: 14px;
+    top: 2px;
+    left: -24px;
+}
+
+.header__whatsapp-logo {
+    height: 20px;
+    margin-top: 4px;
+    margin-bottom: -1px;
+    margin-left: -2px;
+}
+
+.header__tel {
+    display: block;
+    margin-top: -18px;
+    margin-left: 24px;
+    padding-left: 3px;
+    color: #364844;
+    font-size: 11px;
+}
+
+
+.btn-sign-up {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    border-radius: 15px;
+    padding: 7px 17px;
+    margin-top: 8px;
+    margin-right: -9px;
+}
+
+.nav.nav-left {
+    font-size: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 11px;
+}
+.navbar {
+    height: 30px;
+    margin-top: -9px;
+    margin-bottom: 0;
+}
+
+.bg-color {
+    background-color: #1FA181;
+    color: #fff;
+}
+
+.navbar-toggler {
+    margin-top: -10px;
+    z-index: 50;
+}
+
+.navbar-collapse.collapse.show {
+    background-color: #1FA181;
+    margin: 0 -13px;
+    padding: 0 5%; /* паддинги придется в медиазапросах писать */
+}
+
+/* end navbar */
+.header__intro {
+    background-color: #E2F0EF;
+    padding-bottom: 0px;
+}
+
+.header__intro-left {
+    margin-left: 246px;
+    margin-top: 96px;
+}
+
+.header__title {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-left: -56px;
+}
+
+.header__text {
+    max-width: 240px;
+    margin-left: -56px;
+}
+
+.header__intro-image {
+    width: 102%;
+    max-width: 640px;
+    max-height: 360px;
+}
+
+
+
+/* check-up */
+.check-up {
+    margin-top: 67px;
+    margin-bottom: 15px;
+    margin-left: 16px;
+}
+
+
+/* carousel */
+/* так можно опустить обе стрелочки слайдера */
+.carousel-control-next, .carousel-control-prev {
+    top: 325px;
+
+    margin: 0 auto;
+    
+}
+  
+.carousel-control-next-icon {
+    background-image: url('../images/l-arrow.svg');
+    width: 24px;
+}
+  
+.carousel-control-prev-icon {
+    background-image: url('../images/r-arrow.svg');
+    width: 24px;
+    position: relative;
+    left: 292px;
+}
+  
+
+.carousel-control-next {
+    left: 90px; 
+}
+
+.carousel-caption {
+    color: #364844;
+}
+
+.carousel-inner .check-up__title {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: -1px;
+    
+    right: 277px;
+    top: 93px;
+}
+
+.carousel-inner .check-up__text {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 11px;
+    top: 89px;
+    right: 294px;
+    letter-spacing: 1px;
+}
+
+.carousel-inner .check-up__list {
+    position: relative;
+    top: 81px;
+    right: 91px;
+    line-height: 19px;    
+    text-align: left;
+}
+
+.carousel-inner .check-up__list ul li {
+    list-style-image: url(../images/Ellipse-4.svg);  
+    position: relative;
+    right: -266px;
+    
+}
+
+.carousel-inner .check-up__cost {
+    position: relative;
+    top: 85px;
+    right: 277px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.carousel-inner .check-up__cost span {
+    position: relative;
+    top: 0px;
+    left: 5px;
+    font-size: 10px;
+    text-decoration: line-through;
+    color: #868686;
+}
+
+
+.carousel-inner .btn-sign-up.check-up {
+    position: relative;
+    top: 18px;
+    right: 213px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.carousel-inner .btn-sign-up.check-up.right {
+    background-color: #E2F0EF;
+    color: #1FA181;
+}
+
+.carousel__count {
+    /* color: #364844; */
+    color: #C0C0C0;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #08664F;
+    min-width: 100%;
+    height: 95px;
+    margin-top: 68px;
+    
+}
+.nav-footer {
+    margin-left: 10px;
+    margin-top: 31px;
+}
+
+.nav-footer .nav-link {
+    font-size: 10px;
+    color: #fff;
+    margin: 0;
+    margin-right: -8px;
+}
+
+.footer__logo {
+    width: 70px;
+    margin-left: -8px;
+    margin-top: 31px;
+}
+
+.footer__icon {
+    width: 22px;
+    margin: 0;
+}
+.nav-icon {
+    margin-right: -10px;
+}
+.nav-icon .nav-link { 
+    padding: 5px;
+    margin-top: 30px;
+}
+.burger {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+  }
+
+.mobile-photo {
+    display: none;
+}
+
+
+
+
+/* modal */
+
+.modal {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(74, 153, 134, 0.9);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal__close {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    z-index: 1;
+
+    transition: transform .2s linear;
+}
+
+.modal__close:focus {
+    outline: none;
+}
+
+.modal__close:hover {
+    transform: rotate(90deg);
+}
+
+.modal__close img {
+    display: block;
+}
+
+  
+
+
+
+/* ================================= */
+
+/* стили со старой верстки */
+.btn-sign-up.modal-btn {
+    margin: 25px 3%;
+    width: 93%;
+    font-size: 13px;
+}
+
+.modal__title {
+    margin-bottom: 10px;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #364844;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+.submission__form {
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #24272b;
+    border-radius: 6px;
+    background-color: #ededed;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    transition: all .3s;
+    
+}
+
+/* блок для позиционирования крестика */
+.inner {
+    position: relative;
+}
+
+.submission__form:hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.form-control, .form-select {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 6px;
+}
+
+.modal__close {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background: none;
+    border: none;
+
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    z-index: 1;
+}
+
+.modal__close img {
+    display: block;
+}
+
+
+
+
+
+/* ============ media query ============ */
+
+@media (max-width: 1184px) {
+
+    .header__intro-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+@media (max-width: 1600px) {
+
+    .header__intro-left {
+        margin-left: 50%;   
+    }
+
+}
+
+@media (max-width: 1144px) {
+
+    .header__intro-left {
+        margin-left: 35%;   
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .header__intro-left {
+        margin-left: 30%;   
+    }
+    .navbar {
+        height: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .navbar-collapse.collapse.show {
+        padding-top: 26px;
+        padding-bottom: 30px;
+    }
+    .navbar-nav .nav-link {
+        padding-bottom: 0;
+        padding-top: 6px;
+    }
+}
+
+@media (max-width: 836px) {
+
+    .header__intro-left {
+        margin-left: 20%;   
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .header__intro-left {
+        margin: 7% 15%;   
+    }
+
+}
+
+@media (max-width: 524px) {
+    .btn-sign-up {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__whatsapp-logo {
+        display: none;
+    }
+    .header__tel  {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+    .header__icon {
+        display: none;
+    }
+    .header__address {
+        margin-top: 1px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+    }
+
+    .submission__form {
+        width: 330px;
+        padding: 15px;
+    }
+}
+
+
+/* самодельное меню в этом блоке */
+
+@media (max-width: 380px) {
+
+    .mobile-photo {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .desktop-photo {
+        display: none;
+    }
+
+    .header__intro-left {
+        margin: 15px;   
+    }
+    .header__intro {
+        background-color: #fff;
+    }
+    .header__address span {
+        display: none;
+    }
+    .burger {
+        display: block;
+        width: 32px;
+        height: auto;
+        cursor: pointer;
+        background: url(../images/burger_close.svg) no-repeat;
+        background-size: contain;
+        margin-top: 22px;
+        margin-left: 5px;
+        padding-bottom: 22px;
+
+    }
+
+    .active_menu {
+        display: block;
+        width: 32px;
+        height: auto;
+        cursor: pointer;
+        background: url(../images/burger_open.svg) no-repeat;
+        background-size: contain;
+        margin-top: 22px;
+        margin-left: 5px;
+        padding-bottom: 22px;
+
+    }
+
+    .header__logo {
+        width: 67px;
+        margin-left: 40px;
+        margin-top: 13px;
+    }
+    .header__tel {
+        display: block;
+        margin-top: 15px;
+        margin-left: -14px;
+        padding-left: 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .nav .nav-link {
+        padding: 0;
+    }
+    .header__address {
+        position: relative;
+        line-height: 10px;
+        top: 31px;
+        /* margin-bottom: 10px; */
+        left: 102px;
+        letter-spacing: -0.4px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .nav-left {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        display: none;
+      }
+
+    .mobile-menu {
+        margin-top: 12px;
+        display: block;
+        padding-left: 0px;
+        margin-left: 0;
+        background-color: rgba(74, 153, 134, 0.9);
+        padding-top: 49px;
+        padding-bottom: 90px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .mobile-list {
+        padding-left: 20px;
+    }
+
+    .mobile-menu ul li {
+        list-style: none;
+    }
+
+    .mobile-menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .mobile-menu ul li {
+        padding-bottom: 10px;
+    }
+
+    .header__title {
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        margin-left: -10px;
+        margin-top: 41px;
+        letter-spacing: 1px;
+    }
+    .header__text {
+        margin-left: -11px;
+        font-size: 16px;
+        margin-top: 11px;
+        max-width: 100%;
+    }
+
+
+    .btn-success.sign-up {
+        font-family: 'PT Sans Caption', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-top: 8px;
+        margin-right: -9px;
+        background-color: #fff;
+        color: #1FA181;
+        border: none;
+        letter-spacing: 0.2px;
+        margin-top: 30px;
+        }  
+
+    .nav-footer {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .footer__logo {
+        width: 70px;
+        margin-left: 10px;
+        margin-top: 31px;
+    }
+    .nav-icon {
+        margin-right: 10px;
+    }
+
+}
+
+
+@media (max-width: 365px) {
+    .header__logo {
+        width: 62px;
+        margin-left: 10px;
+        margin-top: 13px;
+    }
+    
+    .header__tel {
+    margin-left: -30px;
+    padding-left: 0;
+    font-size: 14px;
+    }
+
+}
+
